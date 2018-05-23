@@ -1,0 +1,60 @@
+.left-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 100vh;
+  background-color: #B21812;
+  box-shadow: 1px 1px 1px;
+  display: flex;
+  flex-direction: column;
+  > i {
+    color: #CECECE;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    left: 25px;
+    padding: 35px 0;
+  }
+  > i:last-child {
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    padding-bottom: 20px;
+  }
+  > .separation {
+    background-color: #CECECE;
+    border-radius: 25px;
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    left: 5px;
+    bottom: 80px;
+    box-shadow: 4px 2px 3px rgba(82, 108, 127, 0.6);
+  }
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  width: calc(100vw - 80px);
+  height: 100vh;
+  > h1 {
+    padding-left: 20px;
+  }
+
+  > button {
+    margin-left: 20px;
+    background-color: #DDD;
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    opacity: 0.6;
+    box-shadow: 1px 1px 1px #B21812;
+    > i {
+     color: #B21812;
+      font-size: 30px;
+    }
+  }
+}

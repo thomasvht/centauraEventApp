@@ -1,4 +1,4 @@
-# CentauraEventApp
+# CentauraEventApp <img src="http://www.centaura.be/wp-content/uploads/2013/11/LogoCentMac2.png" width="64" height="50">
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
