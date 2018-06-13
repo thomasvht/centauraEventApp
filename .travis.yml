@@ -20,4 +20,4 @@ before_install:
 
 script:
   - yarn build --prod
-  - yarn test
+  - yarn test --watch=false
