@@ -19,7 +19,7 @@ addons:
     sources:
       - google-chrome
       packages:
-      - google-crhome-stable
+        - google-chrome-stable
 
 before_install:
   - export CHROME_BIN=/usr/bin/google-chrome
