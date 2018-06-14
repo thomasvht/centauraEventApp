@@ -17,9 +17,9 @@ node_js:
 addons:
   apt:
     sources:
-    - google-chrome
-    packages:
-    - google-chrome-stable
+      - google-chrome
+      packages:
+      - google-crhome-stable
 
 before_install:
   - export CHROME_BIN=/usr/bin/google-chrome
