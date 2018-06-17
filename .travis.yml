@@ -1,4 +1,5 @@
-sudo: false
+sudo: enabled
+dist: trusty
 language: node_js
 
 cache:
@@ -24,6 +25,8 @@ addons:
 before_install:
   - export CHROME_BIN=/usr/bin/google-chrome
   - export DISPLAY=:99.0
+  - "sudo chown root /opt/google/chrome/chrome-sandbox"
+  - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
   - sh -e /etc/init.d/xvfb start
   - yarn install
 
