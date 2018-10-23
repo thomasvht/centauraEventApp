@@ -15,5 +15,4 @@ export class EventsOverviewComponent implements OnInit {
   onClick() {
     alert('Need to implement this');
   }
-
 }
