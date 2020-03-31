@@ -237,9 +237,10 @@
   dependencies:
     "@types/jasmine" "*"
 
-"@types/node@~10.10.0":
-  version "10.10.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.10.0.tgz#2b08a1a7d1fa317173a776c2130bf240545cc33e"
+"@types/node@~13.9.8":
+  version "13.9.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.8.tgz#09976420fc80a7a00bf40680c63815ed8c7616f4"
+  integrity sha512-1WgO8hsyHynlx7nhP1kr0OFzsgKz5XDQL+Lfc3b1Q3qIln/n8cKD4m09NJ0+P1Rq7Zgnc7N0+SsMnoD1rEb0kA==
 
 "@webassemblyjs/ast@1.7.6":
   version "1.7.6"
